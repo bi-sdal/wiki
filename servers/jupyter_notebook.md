@@ -2,7 +2,7 @@
 
 ## How to connect to it (manually)
 
-1. `ssh` into [`lightfoot`]()
+1. `ssh` into [`lightfoot`](https://github.com/bi-sdal/wiki/blob/master/servers/README.md)
 2. `ssh` into the `jupyterhub-server`: `ssh 192.168.122.8`
 
 
