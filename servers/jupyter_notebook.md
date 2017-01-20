@@ -8,6 +8,7 @@
   - type `which python`
   - if it says `~/anaconda3/bin/python` you're good to go!
   - if it says `/usr/bin/python`, you need to [install it](https://github.com/bi-sdal/wiki/blob/master/installation/python_anaconda.md)
+    - log out and log back in after installation
 
 ## Launching a `jupyter notebook`
 
