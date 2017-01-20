@@ -4,7 +4,10 @@
 
 1. `ssh` into [`lightfoot`](https://github.com/bi-sdal/wiki/blob/master/servers/README.md)
 2. `ssh` into the `jupyterhub-server`: `ssh 192.168.122.8`
-
+3.  You should be usin the [Anaconda]() distribution of Python,
+  - type `which python`
+  - if it says `~/anaconda3/bin/python` you're good to go!
+  - if it says `/usr/bin/python`, you need to [install it](https://github.com/bi-sdal/wiki/blob/master/installation/python_anaconda.md)
 
 ## Launching a `jupyter notebook`
 
