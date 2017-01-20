@@ -45,7 +45,10 @@ Programs like `rstudio` and `jupyter notebook` run on separate ports.
 *You've probably typed those numbers before, that's the reason why.*
 
 To make a `ssh` connection to a port, you need to use a special paramter (aka flag) when making the connection.
-For example, if you want to make a connection to port `8888`, you'd type `ssh -L 8888:localhost:8888 192.168.122.10`.
+For example, if you want to make a connection to port `8888`, you'd type
+
+`ssh -L 8888:localhost:8888 192.168.122.10`
+
 What this will do is connect your machine's own port `8888` to the remote machine's port `8888`.
 
 ### Connections to applications using different port number
@@ -62,5 +65,8 @@ If I want to connect to a server rstudio, then there will be a conflict.
 We then have to modify how we want the port to connect on our laptop.
 
 The program still runs on the same port on the server, we just need to change the port on our local machine.
-We alter the command to `ssh -L 1234:localhost:8888 192.168.122.10`.
+We alter the command to
+
+`ssh -L 1234:localhost:8888 192.168.122.10`
+
 This will take port `8888` on the server, and map it to port `1234` on your local machine.
