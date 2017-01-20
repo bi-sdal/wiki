@@ -1,12 +1,12 @@
-# Python Servers
+# Python Server
 
-## How to connect to them (manually)
+## How to connect to it (manually)
 
 1. `ssh` into [`lightfoot`]()
 2. `ssh` into the `jupyterhub-server`: `ssh 192.168.122.8`
 
 
-## Launch a `jupyter notebook`
+## Launching a `jupyter notebook`
 
 1. First make a connection into the `jupyter notebook`
 2. navigate to your project folder
@@ -20,5 +20,8 @@ $ jupyter notebook
 [I 14:53:20.860 NotebookApp] 0 active kernels 
 [I 14:53:20.860 NotebookApp] The IPython Notebook is running at: http://localhost:8888/
 [I 14:53:20.860 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-
 ```
+note the adress in the above statement, here it says: `http://localhost:8888/`.
+The `8888` here is important since it is the port that you will need to connect to.
+
+5. 
