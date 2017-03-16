@@ -6,7 +6,7 @@ Servers found using `sudo lxc-ls`.
 
 IP addresses found using `sudo lxc-info --name rstudio-server`
 
-- `analysis-server`: `192.168.122.`
+- `analysis-server`: `192.168.122.7`
 - `analysis_ubu_server`: `192.168.122.`
 - `awlxc`: `192.168.122.`
 - `centos6`: `192.168.122.`
